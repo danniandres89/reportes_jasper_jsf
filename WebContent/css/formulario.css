@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+.ui-widget,.ui-widget .ui-widget {
+	font-size: 90% !important;
+}
+
+#contenido {
+	position: absolute;
+}
+
+#correoElectronico {
+	width: 500px;
+	border-radius: 100px;
+	position: relative;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+#datosPersonales {
+	width: 475px;
+	border-radius: 100px;
+	position: relative;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#informacionContacto {
+	width: 475px;
+	border-radius: 100px;
+	position: relative;
+	float: right;
+	margin-bottom: 10px;
+}
+
+#datosAmigos {
+	width: 960px;
+	border-radius: 100px;
+	position: relative;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#contenidoMapaLugar {
+	width: 650px;
+	border-radius: 100px;
+	position: relative;
+	float: left;
+	padding-bottom: 10px;
+}
+
+#mapaLugar {
+	width: 650px;
+	border-radius: 100px;
+	position: relative;
+	float: left;
+	padding-bottom: 10px;
+}

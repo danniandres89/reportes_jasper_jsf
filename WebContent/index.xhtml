@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Reportes</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="language" content="es" />
+	<link href="#{request.contextPath}/css/general.css" rel="stylesheet"
+		type="text/css" />
+	<link href="#{request.contextPath}/css/normalize.css" rel="stylesheet"
+		type="text/css" />
+</h:head>
+<h:body>
+
+	<h:form>
+		<center>
+			<h1>Balance General</h1>
+
+			<table>
+				<tr>
+					<td align="center"><p:commandLink ajax="false"
+							actionListener="#{reportBean.printHTML}" target="_blank">
+
+							<h:graphicImage value="/images/html.png"
+								style="width:100px; height: 100px" />
+							<br></br>
+							<h:outputText value="Generar vista HTML"></h:outputText>
+
+						</p:commandLink></td>
+
+					<td align="center"><p:commandLink ajax="false"
+							actionListener="#{reportBean.viewReport}" target="_blank">
+
+							<h:graphicImage value="/images/texto.png"
+								style="width:100px; height: 100px" />
+							<br></br>
+							<h:outputText value="Visualizar Reporte"></h:outputText>
+
+						</p:commandLink></td>
+
+					<td align="center"><p:commandLink ajax="false"
+							actionListener="#{reportBean.printPDF}">
+
+
+							<h:graphicImage value="/images/pdf.png"
+								style="width:100px; height: 100px" />
+							<br></br>
+							<h:outputText value="Generar reporte PDF"></h:outputText>
+
+
+						</p:commandLink></td>
+
+
+					<td align="center"><p:commandLink ajax="false"
+							actionListener="#{reportBean.printXLS}">
+
+							<h:graphicImage value="/images/sobresalir.png"
+								style="width:100px; height: 100px" />
+							<br></br>
+							<h:outputText value="Generar reporte Excel"></h:outputText>
+
+						</p:commandLink></td>
+
+				</tr>
+
+
+			</table>
+
+		</center>
+		<!-- 		<p:panel style="align:center;">
+
+
+
+		</p:panel> -->
+
+	</h:form>
+</h:body>
+
+</html>

@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	/*background: url(../images/fondo-errores-sistema.jpg);*/
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	background-size: 100% auto;
+	margin: 0px;
+	background-attachment: fixed;
+	margin: 0px;
+	font-family: 'Sans-serif';
+	font-weight: bold;
+}
+
+#contenedor {
+	width: 1000px;
+	/*float: center;*/
+	margin-left: 100px;
+	margin-top: 160px;
+	color: black;
+	font-weight: bold;
+	font-size: 24px;
+	padding-right: 20px;
+	/*text-shadow: 0.5px 1px 2px black;*/
+}

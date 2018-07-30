@@ -1,0 +1,380 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+@media screen {
+    .print_report {}
+}
+@media print {
+    .print_report {display: block;}
+}
+
+.noBorders tr, .noBorders td {
+    background: none !important;
+    border: none !important;
+}
+
+.dateTimeField input {
+	width: 350px;
+}
+
+div ul li.ui-tabs-selected {
+	background-color: #e1dede !important;
+	background-image: none !important;
+	font-weight: bold;
+}
+
+.ui-tabs .ui-tabs-panel {
+	border-width: 0;
+	padding: 1em 1.4em;
+	background: #e1dede;
+}
+
+.dtTableClasse {
+	background-color: #cbc9c9;
+}
+
+.highlight {
+	background: #FA5858;
+}
+
+.highlight2 {
+	/* background: white  !important ; */
+	
+}
+
+.highlight3 {
+	background: #ceea59;
+}
+
+.autocompleteGrande input {
+	width: 350px !important;
+}
+
+.autoCompleteTresNiveles input {
+	width: 875px !important;
+}
+
+.inputMaskGrande input {
+	width: 350px !important;
+}
+
+.ui-widget { /* font-size: 0.9em;*/
+	font-size: 90% !important;
+}
+
+#menu {
+	padding: 10px;
+	width: 300px;
+	height: 670px;
+	float: left;
+	background-image: url(../imagenes/menu_gris.png);
+	background-repeat: no-repeat;
+	background-position-x: -3px;
+	/*-webkit-box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.75);*/
+	margin-left: -250px;
+	position: fixed;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	z-index: 100;
+	top: 50%;
+	margin-top: -335px;
+}
+
+#menu:hover {
+	margin-left: 0px;
+}
+
+#contenedor {
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	width: 1200px;
+}
+
+#top {
+	/*float: left;
+    width: 80%;
+    background-image: url(../imagenes/logo.png);
+    background-repeat: no-repeat;
+    height: 240px;
+    background-position-y: 50px;*/
+	
+}
+
+#header {
+	background-image: url(../images/banner-sistema.png);
+	min-height: 200px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: no-repeat;
+}
+
+#header-login {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: no-repeat;
+}
+
+#mid {
+	float: left;
+	min-width: 1024px;
+}
+
+#contenido {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	/* background-color: #FFF;
+    padding: 30px;
+    margin-top: 30px; */
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	/* border: 2px solid #0C3; */
+}
+
+#footer {
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: 3em;
+	margin-top: -3em;
+}
+
+.propaganda {
+	font-family: 'Handlee', cursive !important;
+	font-size: 45px;
+	font-weight: bold;
+	width: 600px;
+	margin: 100px auto 0 auto;
+}
+
+.ui-widget .boton-cerrar-sesion {
+	width: 92px;
+	height: 33px;
+	background-image: url(../images/btn-cerrar-sesion.png) !important;
+	background-position: initial;
+	background-repeat: no-repeat;
+	margin: 0;
+	border: 0 none;
+	padding: 0;
+}
+
+.nivel-uno {
+	width: 92px;
+	height: 33px;
+	background-image: url(../imagenes/btn-nivel-uno.png) !important;
+	background-position: initial;
+	background-repeat: no-repeat;
+}
+
+.nivel-dos {
+	width: 95px;
+	height: 33px;
+	background-image: url(../imagenes/btn-nivel-dos.png) !important;
+	background-position: initial;
+	background-repeat: no-repeat;
+}
+
+.nivel-tres {
+	width: 94px;
+	height: 33px;
+	background-image: url(../imagenes/btn-nivel-tres.png) !important;
+	background-position: initial;
+	background-repeat: no-repeat;
+}
+
+.nivel-cuatro {
+	width: 96px;
+	height: 33px;
+	background-image: url(../imagenes/btn-nivel-cuatro.png) !important;
+	background-position: initial;
+	background-repeat: no-repeat;
+}
+
+.titulo-menu {
+	/*font-family: 'Handlee', cursive !important;*/
+	font-size: 13px;
+	font-weight: bold;
+
+	/* 	background: white;
+            color: #12a3ff; */
+}
+
+#menu h3[role="tab"].ui-state-default span {
+	background-image: url(../imagenes/adelante_od.png) !important;
+	background-position: initial;
+	background-repeat: no-repeat;
+	margin-top: -13px !important;
+	width: 13px;
+	height: 21px;
+	width: 13px
+}
+
+#menu h3[role="tab"].ui-state-active span {
+	background-image: url(../imagenes/adelante_od.png) !important;
+	background-position: initial;
+	background-repeat: no-repeat;
+	margin-top: -13px !important;
+	-webkit-transform: rotateZ(90deg);
+	-moz-transform: rotateZ(90deg);
+	-ms-transform: rotateZ(90deg);
+	transform: rotateZ(90deg);
+	width: 13px;
+	height: 21px;
+}
+
+#menu button[role="button"] {
+	/* background: url(../imagenes/boton-menu.png) no-repeat !important;
+    border: none; */
+	/*background-position: initial;*/
+	/*background-repeat: no-repeat;*/
+	/*width: 140px;
+    height: 28px;*/
+	
+}
+
+.ui-panelgrid.ui-panelgrid-blank .ui-panelgrid-content.ui-widget-content,.ui-panelgrid.ui-panelgrid-blank .ui-panelgrid-header.ui-widget-header,.ui-panelgrid.ui-panelgrid-blank .ui-panelgrid-footer.ui-widget-header,.ui-panelgrid.ui-panelgrid-blank .ui-panelgrid-header>tr.ui-widget-header,.ui-panelgrid.ui-panelgrid-blank tbody>tr.ui-widget-content,.ui-panelgrid.ui-panelgrid-blank tbody>tr.ui-widget-content>td.ui-panelgrid-cell,.ui-panelgrid.ui-panelgrid-blank .ui-panelgrid-footer>tr.ui-widget-footer
+	{
+	background: none !important;
+	border: 0 none !important;
+}
+
+/* Se activa cuando un tab esta activa */
+#menu h3[role="tab"].ui-state-active {
+	border: none !important;
+}
+
+/* Arreglos Date Picker */
+select.ui-datepicker-month {
+	color: black;
+}
+
+select.ui-datepicker-year {
+	color: black;
+}
+/* Fin Arreglos Date Picker */
+
+/*div#formMenus:panelMenuPrincipal div.ui-accordion-content.ui-helper-reset.ui-widget-content .ui-accordion-content */
+#menu div[role="tabpanel"] {
+	overflow: hidden !important;
+	background: none;
+}
+
+#menu div[role="tab"] {
+	background: none;
+}
+
+/* BOTONES PARA JSF */
+.ui-button {
+	background: none;
+	width: 100px;
+	height: 25px;
+	font-size: 90% !important;
+}
+
+.ui-widget .ui-icon-editar {
+	width: 24px;
+	height: 24px;
+	background-size: 24px 24px;
+	background-image: url(../images/icons/edit.png);
+}
+
+.ui-widget .ui-icon-eliminar {
+	width: 24px;
+	height: 24px;
+	background-size: 24px 24px;
+	background-image: url(../images/icons/delete.png);
+}
+
+.ui-widget .ui-icon-editar:hover {
+	-moz-box-shadow: 5px 5px 7px #888;
+	-moz-border-radius-bottomright: 15px;
+	-webkit-box-shadow: 5px 5px 7px #888;
+	-webkit-border-bottom-right-radius: 15px;
+}
+
+.ui-widget .ui-icon-eliminar:hover {
+	-moz-box-shadow: 5px 5px 7px #888;
+	-moz-border-radius-bottomright: 15px;
+	-webkit-box-shadow: 5px 5px 7px #888;
+	-webkit-border-bottom-right-radius: 15px;
+}
+
+.ui-widget .ui-icon-pin {
+	width: 24px;
+	height: 24px;
+	background-size: 24px 24px;
+	background-image: url(../images/icons/pin.png);
+}
+
+.ui-widget .ui-icon-pin:hover {
+	-moz-box-shadow: 5px 5px 7px #888;
+	-moz-border-radius-bottomright: 15px;
+	-webkit-box-shadow: 5px 5px 7px #888;
+	-webkit-border-bottom-right-radius: 15px;
+}
+
+.ui-widget .ui-icon-pdf {
+	width: 25px;
+	height: 25px;
+	background-size: 25px 25px;
+	background-image: url(../imagenes/PDF-icon.png);
+}
+
+.ui-widget .ui-icon-carta {
+	width: 25px;
+	height: 25px;
+	background-size: 25px 25px;
+	background-image: url(../imagenes/new.png);
+}
+
+.colored {
+	background: #ffffff;
+}
+
+.menu .ui-selectonemenu-label {
+	background: #1799c8;
+	color: White;
+}
+
+.panel .ui-selectonemenu-list {
+	background: #1799c8;
+	color: White;
+}
+
+.ui-layout-pane-north {
+	border: 0;
+	font-size: 80% !important;
+}
+
+.ui-layout-pane-south {
+	border: 0;
+	font-size: 75% !important;
+}
+
+.ui-layout-pane-center {
+	border: 0;
+	font-size: 85% !important;
+}
+
+.ui-layout-pane-west {
+	border: 0;
+	/*font-size: 90% !important;*/
+}
+
+.noScrolllayoutUnit .ui-layout-unit-content {
+	overflow: hidden;
+}
